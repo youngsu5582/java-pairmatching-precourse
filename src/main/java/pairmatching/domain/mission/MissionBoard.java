@@ -1,4 +1,6 @@
-package pairmatching.domain;
+package pairmatching.domain.mission;
+
+import pairmatching.domain.Level;
 
 import java.util.ArrayList;
 import java.util.EnumMap;

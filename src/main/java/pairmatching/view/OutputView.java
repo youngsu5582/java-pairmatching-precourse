@@ -2,7 +2,7 @@ package pairmatching.view;
 
 import pairmatching.domain.Course;
 import pairmatching.domain.Level;
-import pairmatching.domain.MissionBoard;
+import pairmatching.domain.mission.MissionBoard;
 import pairmatching.view.message.OutputViewMessage;
 
 import java.util.Arrays;

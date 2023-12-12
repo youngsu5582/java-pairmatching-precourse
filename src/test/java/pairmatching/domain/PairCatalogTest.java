@@ -3,6 +3,7 @@ package pairmatching.domain;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pairmatching.domain.pair.PairCatalog;
 
 public class PairCatalogTest {
     @Test

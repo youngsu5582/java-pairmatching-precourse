@@ -3,6 +3,8 @@ package pairmatching.domain;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pairmatching.domain.crew.Crew;
+import pairmatching.domain.crew.CrewBoard;
 
 import java.util.List;
 
@@ -20,6 +22,5 @@ public class CrewBoardTest {
         CrewBoard crewBoard = new CrewBoard(crewList);
 
         Assertions.assertEquals(crewBoard.getCrewNameList(Course.BACKEND).size(),1);
-
     }
 }

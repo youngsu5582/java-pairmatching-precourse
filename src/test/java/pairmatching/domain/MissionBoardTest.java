@@ -3,6 +3,8 @@ package pairmatching.domain;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import pairmatching.domain.mission.Mission;
+import pairmatching.domain.mission.MissionBoard;
 
 import java.util.List;
 

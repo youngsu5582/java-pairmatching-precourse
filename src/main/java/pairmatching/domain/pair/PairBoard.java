@@ -1,4 +1,7 @@
-package pairmatching.domain;
+package pairmatching.domain.pair;
+
+import pairmatching.domain.Course;
+import pairmatching.domain.Level;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +10,7 @@ import java.util.List;
 public class PairBoard {
     private HashMap<PairCatalog, PairResult> pairBoard;
 
-    PairBoard() {
+    public PairBoard() {
         pairBoard = new HashMap<>();
     }
 

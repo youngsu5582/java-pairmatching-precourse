@@ -1,4 +1,6 @@
-package pairmatching.domain;
+package pairmatching.domain.crew;
+
+import pairmatching.domain.Course;
 
 import java.util.ArrayList;
 import java.util.EnumMap;
