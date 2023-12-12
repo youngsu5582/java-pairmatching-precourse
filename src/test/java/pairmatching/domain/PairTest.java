@@ -15,6 +15,6 @@ public class PairTest {
         Pair pair = new Pair(pairNameList);
 
         Assertions.assertInstanceOf(Pair.class,pair);
-        Assertions.assertEquals(pair.pairNameList().size(),2);
+        Assertions.assertEquals(pair.nameList().size(),2);
     }
 }
