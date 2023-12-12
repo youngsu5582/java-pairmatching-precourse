@@ -26,4 +26,23 @@ public class PairBoardTest {
         Assertions.assertEquals(pairBoard.getPairResultWithCatalog(pairCatalog), pairResult);
     }
 
+    @Test
+    @DisplayName("페어 보드에서 , 코스 와 레벨이 일치하는 페어 결과를 조회한다.")
+    void getPairResultWithCourseAndLevel() {
+        //Given
+        PairBoard pairBoard = new PairBoard();
+        Course course = Course.BACKEND;
+        Level level = Level.LEVEL1;
+        PairCatalog pairCatalog1 = new PairCatalog(course,level, "숫자야구게임");
+        PairCatalog pairCatalog2 = new PairCatalog(course,level, "로또");
+
+        //When
+        pairBoard.addPairResult(pairCatalog1, pairResult);
+        pairBoard.addPairResult(pairCatalog2, pairResult);
+        List<PairResult> pairResultList = pairBoard.getPairResultWithCourseAndLevel(course,level);
+
+        //Then
+        Assertions.assertEquals(pairResultList.size(), 2);
+
+    }
 }
